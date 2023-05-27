@@ -1,0 +1,36 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "backend solution for food delivery",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon start",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docker:db": "docker-compose -f docker-compose.dev.yml --env-file .env up -d",
+        "db:migrate": "sequelize db:migrate",
+        "db:seed": "sequelize db:seed:all"
+    },
+    "author": "nedoder",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.20.1",
+        "connect-history-api-fallback": "^2.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "fs": "^0.0.1-security",
+        "jsonwebtoken": "^9.0.0",
+        "multer": "^1.4.5-lts.1",
+        "mysql2": "^2.3.3",
+        "nodemon": "^2.0.20",
+        "sequelize": "^6.28.0",
+        "sequelize-cli": "^6.5.2",
+        "sharp": "^0.31.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.31.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0"
+    }
+}

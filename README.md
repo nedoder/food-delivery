@@ -13,7 +13,7 @@ If you want to run this project on your local environment, please follow these s
 Clone the repository:
 
 ```
-git clone https://github.com/nedoder/TatjanaDoderovic_Omega.git
+git clone [https://github.com/nedoder/TatjanaDoderovic_Omega.git](https://github.com/nedoder/food-delivery.git)
 ```
 
 There are two parts of this project:
